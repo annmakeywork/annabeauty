@@ -6,7 +6,41 @@
   <body>
     <% include ./partials/header %>
        
-   
+    <div id="annabeauty-cart">
+      <table class="Cart">
+        <tbody><tr class="sr-only">
+          <th scope="col">Remove Product</th>
+          <th scope="col">Product Image</th>
+          <th scope="col">Product Name</th>
+          <th scope="col">Quantity</th>
+          <th scope="col">Price</th>
+        </tr>
+        <tr class="C__product-row">
+          <td class="C__remove-cell">
+            <a class="C__remove" title="remove" href="/cart/change?line=1&amp;quantity=0" aria-label="Remove item from cart">
+              <span aria-hidden="true">×</span>
+            </a>
+          </td>
+          <td class="C__image-cell">
+            <a href="/products/sooo-fire-eyeshadow-palette?variant=29382221529190">
+              <img src="//cdn.shopify.com/s/files/1/2037/5105/products/pallete-main-pdp-image-v3_100x100.jpg?v=1563485813" class="C__image-img" alt="Sooo Fire Eyeshadow Palette">
+            </a>
+          </td>
+          <th class="C__title-cell" scope="row">
+            <a class="C__title js-unorphan js-remove-punctuation" href="/products/sooo-fire-eyeshadow-palette?variant=29382221529190">Sooo Fire Eyeshadow&nbsp;Palette</a>
+          </th>
+          
+          <label for="updates_29382221529190" class="sr-only">Quantity:</label>
+          <td class="C__qty-cell">
+            <input type="number" name="updates[]" id="updates_29382221529190" min="0" class="C__qty-input js-qty" inputmode="numeric" pattern="[0-9]*" value="2">
+          </td>
+          <td class="C__total-cell C__total-content">
+            <span class="no-wrap">$90</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
     <div class="footer">
         <footer>
           <ul class="ul-footer">

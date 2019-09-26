@@ -559,5 +559,38 @@ input:focus { outline:none; }
   }
   }
 
+
+  /************** CART **************/
+
+#annabeauty-cart {
+  padding: 100px 0;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#annabeauty-cart  table.Cart {
+  width: 100%;
+}
+
+#annabeauty-cart .Cart {
+    text-align: left;
+    font-size: 17px;
+}
+
+/************** .sr-only class for screen readers **************/
+#annabeauty-cart .sr-only {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+#annabeauty-cart .C__product-row {
+
+}
   
  
