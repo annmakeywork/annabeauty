@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <% include ./partials/header %>
+       
+    <div class="container">  
+        <form id="contact" action="" method="post">
+          <div class="contact-us">
+            <h1>Contact Us</h1>
+            <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+            <input placeholder="Your Email Address" type="email" tabindex="2" required>
+            <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+            <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
+            
+            <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+            <button name="submit" type="submit" id="contact-submit" class="primary-btn" data-submit="...Sending">SUBMIT</button>
+          </div>
+        </form>
+      
+        <div class="footer">
+          <footer>
+            <ul class="ul-footer">
+              <li class="li-footer">
+                <a href="/contacts" class="footer-links" title="CONTACT US">CONTACT US</a></li>
+              <li class="li-footer">
+                <a href="/terms" class="footer-links" title="TERMS">TERMS</a></li>
+              <li class="li-footer">
+                <a href="/faq" class="footer-links" title="FAQ">FAQ</a></li>
+              <li class="li-footer">
+                <a href="https://www.instagram.com" class="footer-links" title="INSTAGRAM">INSTAGRAM</a></li>
+            </ul>
+          </footer>
+        </div>
+
+  </body>
+</html>
