@@ -33,8 +33,6 @@ app.use('/', mainRouter);
 app.use('/users', usersRouter);
 app.use('/cart', cartRouter);
 app.use('/kawaii-collection', kawaiicollectionRouter);
-app.use('/foundation', foundationRouter);
-app.use('/lipstick', lipstickRouter);
 app.use('/contacts', contactsRouter);
 app.use('/faq', faqRouter);
 app.use('/terms', termsRouter);

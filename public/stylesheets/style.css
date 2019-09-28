@@ -119,7 +119,7 @@ a {
 }
 
 .product-img {
-  width: 300px;
+  margin-top: 30px;
 }
 
 .product-img img {
@@ -563,9 +563,10 @@ input:focus { outline:none; }
   /************** CART **************/
 
 #annabeauty-cart {
-  padding: 100px 0;
+  padding: 150px 0;
   width: 1200px;
-  margin: 0 auto;
+  margin: auto;
+  height: 600px;
 }
 
 #annabeauty-cart  table.Cart {
@@ -592,5 +593,37 @@ input:focus { outline:none; }
 #annabeauty-cart .C__product-row {
 
 }
-  
+ 
+.faq-text {
+  font: Arial, bold;
+  font-size: 15px;
+  text-align: left;
+  color: #e49c9e;
+  text-decoration: none;
+}
+
+.faq-container {
+
+  padding: 0 14px;
+  margin-top: 140px;
+  margin-left: 420px;
+  margin-bottom: 50px;
+  max-width: 660px;
+  display: block;
+  box-sizing: border-box;
+}
+
+.back-to-homepage {
+  font: Arial, bold;
+  font-size: 20px;
+  margin: center;
+  color: #e49c9e;
+  text-decoration: none;
+}
+
+.no-wrap {
+  font: Arial, bold;
+  font-size: 30px;
+  color: #e49c9e;
+}
  
